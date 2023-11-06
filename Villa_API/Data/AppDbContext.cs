@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Villa_API.Models;
-using Villa_API.Models.Dto;
 
 namespace Villa_API.Data
 {
@@ -11,7 +10,7 @@ namespace Villa_API.Data
         {
         }
         public DbSet<Villa> Villas { get; set; }
-
+        public DbSet<VillaNumber> VillaNumbers { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Villa>().HasData(
