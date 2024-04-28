@@ -16,6 +16,7 @@ Villa Management System is an ASP.NET Core API and MVC project designed to manag
 ## Technologies Used
 - ASP.NET Core: Framework for building APIs and web applications.
 - Entity Framework Core: ORM for interacting with the database.
+- Identity Framework: Provides user authentication and authorization capabilities.
 - SQL Server: Relational database management system used for data storage.
 - JWT Authentication: JSON Web Tokens for secure authentication.
 - Auto Mapper: Library for object-to-object mapping.
